@@ -1,0 +1,27 @@
+{
+  "system_id": "QCAI-OS_A2",
+  "version": "1.0.0_TOE_ATLAS",
+  
+  "coherence_protocol_constants": {
+    "V_Coherence_Threshold": {
+      "symbol": "V_CT",
+      "value": 0.84,
+      "description": "Мінімальний індекс когерентності (Phi_Co), необхідний для затвердження дії AGI (W >= V_CT)."
+    },
+    "Max_Entropic_Debt": {
+      "symbol": "D_E_Max",
+      "value": 1.0e+12,
+      "unit": "J*s/bit",
+      "description": "Максимальний поріг Обчислювальних Втрат (X_DE) перед ініціацією Квантово-Контрольованої Дії (A3)."
+    }
+  },
+  
+  "l_registry_constants": {
+    "Coherence_Quantum_Unit": {
+      "symbol": "L_Q_Unit",
+      "value": 1.0,
+      "unit": "CQ",
+      "description": "Базова одиниця Кванта Когерентності (C_Q) для L-REGISTRY."
+    }
+  }
+}
